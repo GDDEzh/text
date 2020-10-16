@@ -1,0 +1,48 @@
+[11:01:17] [main/INFO] *** Hello Minecraft! Launcher 2.3.5.7 ***
+[11:01:17] [main/INFO] Initialized settings.
+[11:01:18] [RxNewThreadScheduler/WARN] Failed to get update url.
+java.net.UnknownHostException: huangyuhui.duapp.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.jackhuang.hellominecraft.utils.NetUtils.get(NetUtils.java:69)
+	at org.jackhuang.hellominecraft.utils.NetUtils.get(NetUtils.java:73)
+	at org.jackhuang.hellominecraft.utils.UpdateChecker.lambda$process$43(UpdateChecker.java:49)
+	at org.jackhuang.hellominecraft.utils.UpdateChecker.access$lambda$0(UpdateChecker.java)
+	at org.jackhuang.hellominecraft.utils.UpdateChecker$$Lambda$1.call(Unknown Source)
+	at rx.Observable.lambda$createWithEmptySubscription$4(Observable.java:741)
+	at rx.Observable.access$lambda$1(Observable.java)
+	at rx.Observable$$Lambda$2.call(Unknown Source)
+	at rx.Observable.subscribe(Observable.java:164)
+	at rx.operators.OperationSubscribeOn$SubscribeOn.lambda$call$58(OperationSubscribeOn.java:42)
+	at rx.operators.OperationSubscribeOn$SubscribeOn.access$lambda$0(OperationSubscribeOn.java)
+	at rx.operators.OperationSubscribeOn$SubscribeOn$$Lambda$1.call(Unknown Source)
+	at rx.concurrency.DiscardableAction.call(DiscardableAction.java:46)
+	at rx.concurrency.NewThreadScheduler$$Lambda$1.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[11:01:20] [main/INFO] Prepared background image in bgpath.
+[11:01:22] [AWT-EventQueue-0/INFO] Start generating launching command...
+[11:01:22] [Game Launcher/INFO] Logging in...
+[11:01:23] [Game Launcher/INFO] Detecting libraries...
+[11:01:24] [Game Launcher/INFO] Unpacking natives...
+[11:01:24] [Game Launcher/INFO] *** Make shell command ***
+[11:01:24] [Game Launcher/INFO] On making head command.
+[11:01:24] [Game Launcher/INFO] Java Version: 1.7.0_17
+[11:01:24] [Game Launcher/INFO] Java Platform: 64
+[11:01:24] [Game Launcher/INFO] System Platform: 64
+[11:01:24] [Game Launcher/INFO] System Physical Memory: 8118
+[11:01:24] [Game Launcher/INFO] Reconstructing virtual assets folder at C:\Users\Vitas\Downloads\看这里，我的世界1.7.2\mcsimplelightpack\.minecraft\assets\virtual\legacy
+[11:01:25] [Game Launcher/INFO] On making launcher args.
+[11:01:25] [Game Launcher/INFO] Starting process
