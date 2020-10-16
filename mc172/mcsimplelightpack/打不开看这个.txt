@@ -1,5 +1,0 @@
-1.主登录器不支持老版本JAVA，请下载最新JAVA8
-
-2.登录器更新可以取消掉
-
-3.JAVA8下载地址：http://pan.baidu.com/s/1skeUvQ9
