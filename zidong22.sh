@@ -9,5 +9,5 @@ echo "程序正在重启！"
 else
 echo "程序正在运行！"
 fi
-sleep 600
+sleep 6000
 done
